@@ -1,0 +1,25 @@
+div{
+    background-color:  white;
+    Font-family: Open Sans;
+    Font-weight: 300;
+    Box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.add{
+    font: white;
+    background:  linear-gradient(to right, #f857a6, #ff5858);
+    width: 60%;
+    float: center;
+}
+
+button{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+label{
+    color: #bbb;
+}
+
+.x{
+    float: right;
+}

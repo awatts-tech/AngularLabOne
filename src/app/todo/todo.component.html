@@ -1,1 +1,22 @@
-<p>todo works!</p>
+<section class ="to-do-list">
+
+    <div class= "list-entries">
+        <h1>TODO List</h1>
+        <h3> A place to store your todos</h3>
+        <form>
+            <!-- <input [(ngModel)]="string" />Filter your to-dos</input> -->
+        <ol *ngFor="let Todos of Todos">
+            
+            <li> <button class="complete">Complete</button> {{ Todos.task }}</li> 
+            <button class ="x">x</button>
+
+        </ol>
+
+        <!-- <input [(ngModel)]="Add your to-do"/> -->
+    </form>
+        <button class="add">Add</button>
+    </div>
+</section>
+            
+
+<!-- if completed is true ng style is strikethrough -->
